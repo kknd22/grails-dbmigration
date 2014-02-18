@@ -28,5 +28,6 @@ Note: <p/>
 4. data migration can be done inside one of the changelog or create a new log with embbed sql  <p/>
 
 Gotyous: seems to be on oracle only <p/>
-1. if two class name share the first 12+ character, the default primary key constraint id in oracle will be the same then they collide  <p/>
+1. if two class name share the first 12+ character, the default primary key constraint id in oracle will be the same then they collide: e.g.  <p/>
+  two class name VeryLongClassName and VeryLongClassNameMore will both generate ... primaryKeyName="very_long_claPK"....; which in mysql it is not an issue <p/>
 2. if a field name in multiple class share the same name, e.g. "key", "lables" and they have unique contraint or not null constraint, then sometime the plugins generate constrait the random number are the SAME, which will caus ethe collision   <p/>
