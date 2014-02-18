@@ -6,6 +6,8 @@ http://assarconsulting.blogspot.com/2011/08/database-migration-in-grails.html
 <p/>
 http://refactr.com/blog/2012/01/grails-database-migration-gotchas/
 <p/>
+http://dmitrijs.artjomenko.com/2011/07/how-to-ignore-failed-database.html
+<p/>
 
 Normal workflow Steps: <p/>
 1.	build initial domain object  <p/>
