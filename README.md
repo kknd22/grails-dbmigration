@@ -11,6 +11,8 @@ http://dmitrijs.artjomenko.com/2011/07/how-to-ignore-failed-database.html
 Mastering Grails: Grails and legacy databases <p/>
 https://www.ibm.com/developerworks/java/library/j-grails07158/
 <p/>
+https://github.com/grails-plugins/grails-database-migration/pull/12
+<p/>
 
 Normal workflow Steps: <p/>
 1.	build initial domain object  <p/>
