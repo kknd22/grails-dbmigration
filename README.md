@@ -1,8 +1,13 @@
 grails dbmigration
 
 http://grails-plugins.github.io/grails-database-migration/docs/manual
+<p/>
 
 http://assarconsulting.blogspot.com/2011/08/database-migration-in-grails.html
+<p/>
+
+http://refactr.com/blog/2012/01/grails-database-migration-gotchas/
+<p/>
 
 Normal workflow Steps:
 1.	build initial domain object
